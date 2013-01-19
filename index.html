@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>WriteSimple</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="styles/styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+</head>
+<body>
+
+<div id="settings">
+  <div class="small" id="settingsButton">Settings</div>
+</div>
+
+<div id="outer">
+  <div id="masthead">
+		<h1><a href="/">WriteSimple</a></h1>
+		<div id="headerLinks">
+			<a href="/about">about</a> | <a href="/contact">contact</a>
+		</div>
+	</div>
+
+  <div id="files">
+    <ul>
+    </ul>
+    <a id="newFile">+ New Document </a>
+    <a id="deleteAll">Delete all files</a>
+  </div>
+
+  <div id="workspace">
+    <input id="title" placeholder="title goes here"></input>
+    <div class="docspacer"></div>
+    <textarea placeholder="typing happens here"></textarea>
+    <div class="clearfixer"></div>
+  </div>
+  
+  <div id="footer" class="small">writeSimple is a creation of <a href="http://twitter.com/andygaken">@andygaken</a></div>
+  
+  <div class="clearfixer"></div>
+</div>
+<script src="scripts/application.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-8817623-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
